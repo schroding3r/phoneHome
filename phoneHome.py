@@ -12,5 +12,5 @@ class ConnectionThread ( threading.Thread ):
       print client.recv ( 1024 )
       client.close()
 
-# Let's spawn a few threads:
+# Let's spawn a thread:
 ConnectionThread().start()
